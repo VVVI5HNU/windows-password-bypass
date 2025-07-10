@@ -1,6 +1,5 @@
 ✅ Sticky Keys Method – Bypass Windows Password
 
-````markdown
 # 🛠️ Bypass Windows Password Using Sticky Keys (`sethc.exe`)
 
 This method leverages the Sticky Keys feature in Windows by replacing its executable with `cmd.exe`. Once replaced, pressing the **Shift key five times** at the login screen opens a **system-level Command Prompt**, allowing you to reset the password of any local user account.
@@ -27,9 +26,7 @@ This method leverages the Sticky Keys feature in Windows by replacing its execut
 
 ### 2️⃣ Backup Original Sticky Keys Executable
 
-```cmd
 copy C:\Windows\System32\sethc.exe C:\Windows\System32\sethc.bak
-````
 
 ✔️ This saves a backup of the original Sticky Keys program.
 
