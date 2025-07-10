@@ -26,8 +26,9 @@ This method leverages the Sticky Keys feature in Windows by replacing its execut
 
 ### 2️⃣ Backup Original Sticky Keys Executable
 
+```cmd
 copy C:\Windows\System32\sethc.exe C:\Windows\System32\sethc.bak
-
+```
 ✔️ This saves a backup of the original Sticky Keys program.
 
 ---
